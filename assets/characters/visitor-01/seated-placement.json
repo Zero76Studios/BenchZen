@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 3,
+  "status": "transparency-repaired-pending-visual-review",
+  "actualSeatedArtworkAvailable": true,
+  "background": "assets/images/paris/paris-clean.png",
+  "backgroundDimensions": [
+    1672,
+    941
+  ],
+  "approvedStanding": {
+    "pose": "standing-rear",
+    "scalePercent": 80,
+    "x": 950,
+    "y": 890
+  },
+  "approvedStandingLocalGroundAnchor": [
+    71,
+    462
+  ],
+  "proposedSeated": {
+    "scalePercent": 100,
+    "x": 842,
+    "y": 812
+  },
+  "guide": {
+    "dimensions": [
+      120,
+      218
+    ],
+    "seatAnchor": [
+      60,
+      140
+    ],
+    "fill": "#080808",
+    "shapes": [
+      {
+        "type": "circle",
+        "cx": 60,
+        "cy": 19,
+        "r": 16
+      },
+      {
+        "type": "rect",
+        "x": 22,
+        "y": 42,
+        "width": 76,
+        "height": 98
+      },
+      {
+        "type": "rect",
+        "x": 31,
+        "y": 140,
+        "width": 20,
+        "height": 72
+      },
+      {
+        "type": "rect",
+        "x": 69,
+        "y": 140,
+        "width": 20,
+        "height": 72
+      },
+      {
+        "type": "rect",
+        "x": 27,
+        "y": 206,
+        "width": 26,
+        "height": 8
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 206,
+        "width": 26,
+        "height": 8
+      }
+    ]
+  },
+  "occlusion": {
+    "file": "assets/images/paris/bench-preview/bench-center-occlusion.png",
+    "sourceRect": [
+      690,
+      737,
+      310,
+      87
+    ],
+    "opaqueYBands": [
+      [
+        737,
+        757
+      ],
+      [
+        761,
+        778
+      ],
+      [
+        783,
+        800
+      ],
+      [
+        816,
+        824
+      ]
+    ],
+    "coordinateConvention": "background pixels, exclusive right and bottom edges",
+    "coverage": "central backrest slats and front seat rail only; not arms, posts, seat surface or legs",
+    "productionReady": false
+  },
+  "missingArtwork": [
+    "Artist confirmation of hip/contact anchor and seated proportions against approved 264px standing reference",
+    "Final bench contact and occlusion review with repaired transparent artwork"
+  ],
+  "actualSeatedArtworkUsable": true,
+  "seatedArtworkManifestKey": "seatedArtwork",
+  "proposedArtworkSeated": {
+    "scalePercent": 100,
+    "x": 842,
+    "y": 812
+  },
+  "alignmentDiagnosticFile": "assets/characters/visitor-01/seat-alignment.json",
+  "placementApproved": false
+}

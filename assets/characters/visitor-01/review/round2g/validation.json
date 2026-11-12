@@ -1,0 +1,28 @@
+{
+  "result": "passed-diagnostic-only",
+  "baseline": {
+    "x": 842,
+    "y": 812,
+    "scalePercent": 100,
+    "approved": false
+  },
+  "measurement": "independent alpha contour scan equals diagnostic JSON; y=812 at baseline, y=800 in rejected comparison",
+  "gapAboveSeatBand": {
+    "baseline812": 0,
+    "rejected800": 6
+  },
+  "overlay": "SVG hidden attribute toggles; guides do not change character or mask transforms; hidden in other studies and image failures",
+  "controllers": "all 12 standing/walking stills, reset, independent studies, occlusion toggle, copy/fallback and missing optional metadata passed",
+  "resizing": "3 widths x 3 scales: guide bounds/point coincide with character placement",
+  "preservation": {
+    "checkedFiles": 29,
+    "allUnchanged": true
+  },
+  "normalMode": "query gating and unchanged HTML/CSS/JS passed",
+  "syntax": "passed",
+  "httpResources": "passed",
+  "artworkChanged": false,
+  "positionCorrectionApplied": false,
+  "physicalSupportPointVerified": false,
+  "finalVisualApproval": false
+}

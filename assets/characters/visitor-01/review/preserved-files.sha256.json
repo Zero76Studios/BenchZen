@@ -1,0 +1,26 @@
+﻿[
+    {
+        "path":  "index.html",
+        "sha256":  "913da37e1d5bc93b6b474f0ca672c4190e11fe9a3fb20f100191bcc63d1db453"
+    },
+    {
+        "path":  "styles.css",
+        "sha256":  "02038146e2204c55230b0ebfc9a6c2396a013937803b62262d76e44b99af6044"
+    },
+    {
+        "path":  "script.js",
+        "sha256":  "5e24e7ef896e5c55f329c65f2891232bb087d084a04126104066ea0fef120180"
+    },
+    {
+        "path":  "assets/characters/benchzen-character-round2c/character-master-reference.png",
+        "sha256":  "e253711f034f69f53f384941ea33596164989b0c91ff02df26c8e20c23733273"
+    },
+    {
+        "path":  "assets/images/paris/paris-approved.png",
+        "sha256":  "11f94c150dcce91067dce37e8fbe6b89693afdc0787b9c5def2ee1aa7bb69646"
+    },
+    {
+        "path":  "assets/images/paris/paris-clean.png.png",
+        "sha256":  "aa0156c26ad53247b7b93c3eca97188a23538f8695fcb720cb6f7b5f4bb85258"
+    }
+]

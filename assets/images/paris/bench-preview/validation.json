@@ -1,0 +1,16 @@
+{
+  "result": "passed",
+  "approvedStandingReference": "950,890;80%;264px;anchor71,462",
+  "standingAndSeatedSettingsIndependent": true,
+  "viewportMath": "3 widths x 4 scales, both anchors",
+  "fixedBenchOverlay": true,
+  "occlusionToggleAndFailureHandling": "passed",
+  "copyAndManualFallback": "passed",
+  "normalModeIsolation": "passed",
+  "preservedPngFiles": 17,
+  "sourcePixelEquality": 19220,
+  "transparentGapPixels": 7750,
+  "visualReview": "Diagnostic geometric composite inspected; browser UI not visually verified",
+  "productionReady": false,
+  "missing": "Complete bench-free seated character PNG, artist-defined hip anchor, final edge/contact review"
+}

@@ -1,0 +1,29 @@
+{
+  "result": "checks-passed; natural integration blocked",
+  "sourceDimensions": [
+    1024,
+    1536
+  ],
+  "transparency": "RGB, no alpha; 1572864 opaque pixels; checkerboard baked in",
+  "sourceSha256": "e5d5612f8d44ec4f2f3abfe4cfbf8d2fe8dabcd7f42f92d3360d75887f86bd57",
+  "provisionalSeatAnchor": [
+    512,
+    1015
+  ],
+  "initial": {
+    "sceneHip": [
+      842,
+      812
+    ],
+    "scalePercent": 100,
+    "nativeScale": 0.17,
+    "shoeBottomEstimate": 880.85
+  },
+  "syntax": "passed",
+  "positioning": "3 viewport widths x 3 seated scales; aspect ratio and hip invariant",
+  "controls": "independent guide/source/standing states, reset, copy/fallback, source failures, overlay toggle, rapid standing/walk changes passed",
+  "normalMode": "unchanged HTML/CSS/JS hashes and query-gate behavior passed",
+  "preservation": "all pre-existing PNGs and all 12 standing/walking hashes passed",
+  "diagnostic": "offline source composite inspected; checkerboard and foot gap visible",
+  "finalVisualApproval": false
+}

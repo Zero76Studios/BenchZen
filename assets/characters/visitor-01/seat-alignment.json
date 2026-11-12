@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "status": "diagnostic-only-no-placement-approved",
+  "background": "assets/images/paris/paris-clean.png",
+  "backgroundDimensions": [
+    1672,
+    941
+  ],
+  "baseline": {
+    "x": 842,
+    "y": 812,
+    "scalePercent": 100,
+    "approved": false
+  },
+  "rejectedComparison": {
+    "x": 842,
+    "y": 800,
+    "scalePercent": 100,
+    "approved": false
+  },
+  "bench": {
+    "seatSurfacePolygon": [
+      [
+        675,
+        806
+      ],
+      [
+        1007,
+        806
+      ],
+      [
+        1013,
+        816
+      ],
+      [
+        670,
+        816
+      ]
+    ],
+    "seatSurfaceY": [
+      806,
+      816
+    ],
+    "backrestBounds": [
+      645,
+      737,
+      392,
+      63
+    ],
+    "frontRailY": [
+      816,
+      824
+    ],
+    "legFootReferenceY": 890,
+    "measurementUncertaintyPixels": 2
+  },
+  "character": {
+    "image": "assets/characters/visitor-01/seated-rear-transparent.png",
+    "contourMethod": "Independently scanned alpha >=128 in source y=950..1080; bottom pixel edge, not anatomical hip",
+    "estimatedContourPoint": [
+      512,
+      1015
+    ],
+    "localContour": [
+      [
+        370,
+        1009
+      ],
+      [
+        390,
+        1014
+      ],
+      [
+        410,
+        1016
+      ],
+      [
+        430,
+        1018
+      ],
+      [
+        450,
+        1018
+      ],
+      [
+        470,
+        1017
+      ],
+      [
+        490,
+        1016
+      ],
+      [
+        510,
+        1015
+      ],
+      [
+        512,
+        1015
+      ],
+      [
+        530,
+        1016
+      ],
+      [
+        550,
+        1017
+      ],
+      [
+        570,
+        1018
+      ],
+      [
+        590,
+        1018
+      ],
+      [
+        610,
+        1017
+      ],
+      [
+        630,
+        1014
+      ],
+      [
+        650,
+        1010
+      ]
+    ],
+    "physicalSupportPointKnown": false
+  },
+  "occlusion": {
+    "bounds": [
+      690,
+      737,
+      310,
+      87
+    ],
+    "opaqueYBands": [
+      [
+        737,
+        757
+      ],
+      [
+        761,
+        778
+      ],
+      [
+        783,
+        800
+      ],
+      [
+        816,
+        824
+      ]
+    ],
+    "unchanged": true
+  },
+  "findings": [
+    "At baseline, observed central lower-garment contour projects into the visible seat band; no measured positive central air gap.",
+    "Y=800 is 12px upward: the same contour projects about 6px above the rear edge of the seat surface.",
+    "The existing pivot happens to match the observed central garment edge but is not a verified physical support point.",
+    "The front rail starts near y816, leaving about 4px of visible seat surface after the baseline contour; that is board surface, not empty air.",
+    "Feet near y881 versus bench legs near y890 do not prove hovering: their ground depths are not calibrated.",
+    "No artwork incompatibility is established. No translation, anchor change, mask change, scaling change, shadow or proportion correction is applied."
+  ]
+}

@@ -1,0 +1,118 @@
+﻿[
+    {
+        "path":  "assets/characters/benchzen-character-round2c/character-master-reference.png",
+        "sha256":  "e253711f034f69f53f384941ea33596164989b0c91ff02df26c8e20c23733273"
+    },
+    {
+        "path":  "assets/characters/visitor-01/seated-rear-transparent.png",
+        "sha256":  "413001ca09df29740c0ff07b5cc6234f71d243cbf63551eafed9590837c98b22"
+    },
+    {
+        "path":  "assets/characters/visitor-01/seated-rear.png.png",
+        "sha256":  "e5d5612f8d44ec4f2f3abfe4cfbf8d2fe8dabcd7f42f92d3360d75887f86bd57"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/standing-front.png",
+        "sha256":  "633f3428da4c0bd99c06d7672f2d4dd54e5e5b5ebbab870a079886d2115d2dd5"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/standing-left.png",
+        "sha256":  "9b3441a5c424be21c06564278b57b095aeefa214439ab998de19731bb58bcd96"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/standing-rear.png",
+        "sha256":  "8cd6412caee885633f6e993cd5a33b0e4031a8eea9e579e6730b87a8b99a8380"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/standing-right.png",
+        "sha256":  "12938cb47ada2e297c4a28c81d89851b9891b9ec9df85a8f2864867c8bc03d4a"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-01.png",
+        "sha256":  "8cb8acbe2fb3aba696bbda7295147936a17be67e526f8b693489af043f7fe88c"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-02.png",
+        "sha256":  "cf2adbdbd3093b782ee9be4f3633b1f72118931db3b833edd3c8821673685c7a"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-03.png",
+        "sha256":  "895d331ffd162f8ac2d6f97814ba51023fae86861d1b1e688d98c2bfaf5fe4bd"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-04.png",
+        "sha256":  "f524d50980e0f2f0c6a00976404db00365196df5eea37cf9ca9b96e40a9aa944"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-05.png",
+        "sha256":  "a4b0b2779970b9dd1a8f6164a9962a529367b63058cb4b2cd8fac716c4841ba0"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-06.png",
+        "sha256":  "8fe79ec65b7b608f4d1a74ac525833ff067d02dbd18f83652d31ee009278998b"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-07.png",
+        "sha256":  "2fc5098a5adcbaada55ab9bdb5c86a276662613df096a1e952595aa11b56e38f"
+    },
+    {
+        "path":  "assets/characters/visitor-01/poses/walking-right-08.png",
+        "sha256":  "1fd036160a347fd0a432847e32575889b37bddb2a7d50d78e51bdc47188cb9e4"
+    },
+    {
+        "path":  "assets/characters/visitor-01/review/contact-sheet.png",
+        "sha256":  "fcf14ea3ae6eee1407d0add555f48e16b1ad3fff025d109cc1b6e49108087650"
+    },
+    {
+        "path":  "assets/characters/visitor-01/review/round2f/seated-source-composite.png",
+        "sha256":  "d1abf86726fa120fd126c7ac06453a7308e3b59b1310487c598c37922ad4af0a"
+    },
+    {
+        "path":  "assets/characters/visitor-01/review/round2f1/comparison-light-dark.png",
+        "sha256":  "c0f16c029cef08e54c00d7d7aba91bf36133bf07a81c6ae48533d9ff9f2bbb23"
+    },
+    {
+        "path":  "assets/characters/visitor-01/review/round2f1/edge-detail-light-dark.png",
+        "sha256":  "15e2a71d61a1922d587a6ed85e05bfa6e994287139e8adf1e7fa33819da3ff9b"
+    },
+    {
+        "path":  "assets/characters/visitor-01/review/round2f1/paris-seated-review.png",
+        "sha256":  "104f7387b1803e82d62925b81fad1e2b3aae74fe8ddd022e0c34e6e59fe89fcb"
+    },
+    {
+        "path":  "assets/images/paris/paris-approved.png",
+        "sha256":  "11f94c150dcce91067dce37e8fbe6b89693afdc0787b9c5def2ee1aa7bb69646"
+    },
+    {
+        "path":  "assets/images/paris/paris-clean.png",
+        "sha256":  "aa0156c26ad53247b7b93c3eca97188a23538f8695fcb720cb6f7b5f4bb85258"
+    },
+    {
+        "path":  "assets/images/paris/paris-clean.png.png",
+        "sha256":  "aa0156c26ad53247b7b93c3eca97188a23538f8695fcb720cb6f7b5f4bb85258"
+    },
+    {
+        "path":  "assets/images/paris/bench-preview/bench-center-occlusion.png",
+        "sha256":  "aefd4058d035eb3f7f3b0a5b71a013ae14199826f5ed34275af8711160568ea8"
+    },
+    {
+        "path":  "assets/images/paris/bench-preview/bench-inspection.png",
+        "sha256":  "f76b1912a98107dcccadf76b0e43c5721455cc18771d5d1c241d702dcdcc6785"
+    },
+    {
+        "path":  "assets/images/paris/bench-preview/seated-guide-review.png",
+        "sha256":  "c177491036f221b9a4f21bafdf9b1ee67e37434a12e766b1c55796706b26f85d"
+    },
+    {
+        "path":  "index.html",
+        "sha256":  "913da37e1d5bc93b6b474f0ca672c4190e11fe9a3fb20f100191bcc63d1db453"
+    },
+    {
+        "path":  "styles.css",
+        "sha256":  "02038146e2204c55230b0ebfc9a6c2396a013937803b62262d76e44b99af6044"
+    },
+    {
+        "path":  "script.js",
+        "sha256":  "df6a72de9f434d1776c8a655f2a43bb4640bcb197cc3685243a5de245cf85949"
+    }
+]

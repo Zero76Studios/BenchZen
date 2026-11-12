@@ -1,0 +1,117 @@
+:root {
+  color-scheme: dark;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f1ede4;
+  background: #11151c;
+  --scene-ratio: 1.7777777778;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+
+.experience {
+  position: relative;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: hidden;
+  background: #11151c;
+}
+
+/* Contain the entire artwork. Empty space becomes cinematic letterboxing.
+   JavaScript replaces the default 16:9 ratio with the image's natural ratio. */
+.scene {
+  position: absolute;
+  width: min(100vw, calc(100vh * var(--scene-ratio)));
+  width: min(100vw, calc(100dvh * var(--scene-ratio)));
+  aspect-ratio: var(--scene-ratio);
+  pointer-events: none;
+}
+
+.scene__layer { position: absolute; inset: 0; }
+.scene__background img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
+.identity, .scene-footer, .status {
+  z-index: 1;
+  text-shadow: 0 1px 6px #000;
+}
+
+.identity {
+  position: absolute;
+  top: max(24px, env(safe-area-inset-top));
+  left: max(28px, env(safe-area-inset-left));
+  padding: 10px 14px;
+  border-radius: 4px;
+  background: #11151cd9;
+}
+
+h1 { margin: 0; font-family: Georgia, serif; font-size: 24px; font-weight: 400; letter-spacing: .04em; }
+.identity p { margin: 7px 0 0; color: #c7c5c3; font-size: 12px; line-height: 1.5; }
+
+.placeholder {
+  max-width: 560px;
+  margin: 140px 24px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.eyebrow { color: #c6af93; font-size: 11px; text-transform: uppercase; letter-spacing: .24em; }
+h2 { margin: 12px 0 20px; font-family: Georgia, serif; font-size: clamp(25px, 4vw, 38px); font-weight: 400; }
+.placeholder > p:not(.eyebrow), .placeholder noscript p { color: #b5b8c1; font-size: 14px; }
+code { display: inline-block; max-width: 100%; color: #ddd0bf; font-size: 12px; overflow-wrap: anywhere; }
+
+.scene-footer {
+  position: absolute;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  left: max(28px, env(safe-area-inset-left));
+  right: max(28px, env(safe-area-inset-right));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.scene-footer p { margin: 0; padding: 10px 12px; border-radius: 4px; background: #11151cd9; font-size: 11px; line-height: 1.5; color: #c7c5c3; }
+.scene-footer p span:first-child { margin: 0 8px; }
+button {
+  min-height: 44px;
+  padding: 10px 15px;
+  border: 1px solid #777a82;
+  border-radius: 4px;
+  background: #11151ce8;
+  color: #f1ede4;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+button:hover { background: #30343e; }
+button:focus-visible { outline: 2px solid #e7c99f; outline-offset: 4px; }
+.status { position: absolute; bottom: 78px; right: 28px; max-width: calc(100% - 56px); background: #11151c; font-size: 12px; }
+.status:empty { display: none; }
+
+@media (max-width: 480px) {
+  .identity { left: max(12px, env(safe-area-inset-left)); top: max(14px, env(safe-area-inset-top)); }
+  .scene-footer { left: max(12px, env(safe-area-inset-left)); right: max(12px, env(safe-area-inset-right)); gap: 8px; }
+  .scene-footer p span:last-child { display: block; }
+  .scene-footer p span:first-child { display: none; }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .identity { top: max(8px, env(safe-area-inset-top)); }
+  .identity h1 { font-size: 20px; }
+  .identity p { margin-top: 4px; }
+  .placeholder { margin: 95px 24px 80px; line-height: 1.4; }
+  .placeholder .eyebrow { margin: 0 0 6px; }
+  .placeholder h2 { margin: 0 0 8px; font-size: 24px; line-height: 1.2; }
+  .placeholder > p:not(.eyebrow) { margin: 0 0 8px; }
+  .scene-footer { bottom: max(8px, env(safe-area-inset-bottom)); }
+}
+
+/* The foundation is static, including when reduced motion is requested. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

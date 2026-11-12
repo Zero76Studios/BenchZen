@@ -1,0 +1,38 @@
+{
+  "result": "technical-repair-passed-ready-for-user-review",
+  "output": "seated-rear-transparent.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "rgba": true,
+  "alphaCounts": {
+    "genuine": true,
+    "pixelFormat": "RGBA, 8 bits per channel",
+    "transparentPixels": 1033927,
+    "partialPixels": 14677,
+    "opaquePixels": 524260,
+    "checkerboardBakedIn": false
+  },
+  "transparentCornersAndExterior": true,
+  "openLegGapPreserved": true,
+  "allDarkSourcePixelsRetained": 529626,
+  "sourceIdenticalOpaquePixels": 523981,
+  "exactSolidInteriorPixels": 519713,
+  "foregroundComponents": 1,
+  "enclosedTransparentHoles": 0,
+  "pinholePixelsRepaired": 8,
+  "nearBackgroundSpeckPixelsRemoved": 120,
+  "noPaleCheckerboardPixels": true,
+  "diagnosticReview": "full body light/dark panels, native-resolution hair/shoe crops, Paris bench composite inspected; no obvious checker remnants or damaged parts observed",
+  "controls": "all 12 standing/walking stills, independent seated/guide states, reset, copy/fallback and image-error handling passed",
+  "positioning": "3 widths x 3 scales preserve seat anchor and aspect ratio",
+  "preservation": {
+    "allPreexistingPngsAndNormalSceneFilesUnchanged": true,
+    "fileCount": 25
+  },
+  "syntax": "passed",
+  "httpResources": "passed",
+  "finalVisualApproval": false,
+  "remainingConcern": "Initial feet about 9px above ground; scale/contact review pending"
+}

@@ -2,32 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Bench Zen | Zero76 Studios</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #17232b;
-      color: #f1ede4;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      text-align: center;
-    }
-    main { padding: 30px; }
-    h1 { font-size: clamp(40px, 8vw, 80px); margin-bottom: 12px; }
-    p { color: #a9b8be; font-size: 18px; }
-    small { color: #82949c; }
-  </style>
+  <meta name="theme-color" content="#11151c">
+  <meta name="description" content="Bench Zen by Zero76 Studios. Somewhere beautiful. Nothing to do. A quiet view of Paris at dusk.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <main>
-    <h1>Bench Zen</h1>
-    <p>Somewhere beautiful. Nothing to do.</p>
-    <small>A Zero76 Studios experiment</small>
+  <main class="experience" id="experience" aria-label="Paris at dusk ambient scene">
+    <div class="scene" id="scene">
+      <div class="scene__layer scene__background" data-layer="background">
+        <img id="paris-artwork" data-src="assets/images/paris/paris-approved.png"
+          alt="The Eiffel Tower in Paris at dusk." hidden>
+      </div>
+      <!-- Reserved layers share the artwork's bounds and stacking order. -->
+      <div class="scene__layer" data-layer="bench" aria-hidden="true"></div>
+      <div class="scene__layer" data-layer="character" aria-hidden="true"></div>
+      <div class="scene__layer" data-layer="atmosphere" aria-hidden="true"></div>
+      <div class="scene__layer" data-layer="foreground" aria-hidden="true"></div>
+    </div>
+
+    <header class="identity">
+      <h1>Bench Zen</h1>
+      <p>Somewhere beautiful. Nothing to do.</p>
+    </header>
+
+    <section class="placeholder" id="artwork-placeholder" aria-labelledby="placeholder-title">
+      <p class="eyebrow">Paris at dusk</p>
+      <h2 id="placeholder-title">A quiet place, waiting.</h2>
+      <p>Add the approved Paris artwork here, then refresh:</p>
+      <code>assets/images/paris/paris-approved.png</code>
+      <noscript><p>Enable JavaScript to display the artwork and fullscreen control.</p></noscript>
+    </section>
+
+    <footer class="scene-footer">
+      <p>Paris, France <span aria-hidden="true">&middot;</span> <span>Zero76 Studios</span></p>
+      <button id="fullscreen-toggle" type="button" aria-pressed="false" hidden>Enter fullscreen</button>
+    </footer>
+    <p class="status" id="fullscreen-status" role="status"></p>
   </main>
 </body>
 </html>

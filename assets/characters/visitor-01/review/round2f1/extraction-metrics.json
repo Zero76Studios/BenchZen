@@ -1,0 +1,23 @@
+﻿{
+    "width":  1024,
+    "height":  1536,
+    "opaque":  524260,
+    "partial":  14677,
+    "transparent":  1033927,
+    "unchangedInterior":  519713,
+    "darkSourcePixels":  529626,
+    "darkSourcePixelsRetained":  529626,
+    "enclosedBackgroundRegions":  0,
+    "repairedEdgePinholes":  8,
+    "removedBackgroundSpeckPixels":  120,
+    "removedBackgroundSpeckComponents":  50,
+    "maxEdgeRecompositionError":  4.2627450980392183,
+    "worstEdge":  "367,1295 C=Color [A=255, R=124, G=123, B=126] F=Color [A=255, R=13, G=11, B=5] B=Color [A=255, R=249, G=249, B=249]",
+    "enclosedRegionDetails":  "1 pixels at [527,62,1,1]; 1 pixels at [792,769,1,1]; 1 pixels at [364,1009,1,1]; 2 pixels at [818,1011,1,2]; 3 pixels at [357,1146,1,3]",
+    "alphaBounds":  [
+                        185,
+                        58,
+                        646,
+                        1364
+                    ]
+}

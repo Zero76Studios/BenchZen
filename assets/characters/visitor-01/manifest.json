@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "characterId": "visitor-01",
+  "stage": "round-2c-asset-preparation",
+  "runtimeIntegrated": false,
+  "animationImplemented": false,
+  "source": {
+    "file": "../benchzen-character-round2c/character-master-reference.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "e253711f034f69f53f384941ea33596164989b0c91ff02df26c8e20c23733273",
+    "alphaHistogram": {
+      "transparent": 616254,
+      "partial": 957011,
+      "opaque": 273
+    },
+    "layout": "Manually bounded figures, not uniform grid cells"
+  },
+  "extraction": {
+    "method": "Source RGBA pixel copies from largest 8-connected near-black component per region",
+    "alphaMinimum": 200,
+    "maxRgbChannel": 55,
+    "maxRgbSpread": 25,
+    "padding": 4,
+    "generatedPixels": 0,
+    "resampled": false,
+    "sourceAlphaPreserved": true,
+    "limitations": [
+      "Warm halo removal trims light contour pixels, hair tips and shoe highlights.",
+      "Retained source pixels have slight translucency.",
+      "Walking stills are lower resolution and not a validated gait cycle."
+    ],
+    "tool": "tools/ExtractPoses.cs"
+  },
+  "coordinates": {
+    "origin": "top-left",
+    "axes": "x right, y down",
+    "units": "source pixels",
+    "rectangles": "[x,y,width,height], right/bottom exclusive",
+    "groundAnchor": "Local PNG pixel-edge coordinates; estimated body-axis x, lowest retained pixel bottom edge y",
+    "seatAnchor": "Unavailable: no complete seated pose",
+    "cropPadding": 4
+  },
+  "parisAlignment": {
+    "cleanBackground": "../../images/paris/paris-clean.png.png",
+    "currentRuntimeBackground": "../../images/paris/paris-approved.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "estimatesOnly": true,
+    "tolerancePixels": 8,
+    "benchBounds": [
+      645,
+      735,
+      392,
+      156
+    ],
+    "backrestTop": [
+      842,
+      738
+    ],
+    "seatContact": [
+      842,
+      812
+    ],
+    "groundY": 890,
+    "seatedFeetCenter": [
+      842,
+      885
+    ],
+    "suggestedStandingArrival": [
+      1060,
+      890
+    ],
+    "proposedStandingVisibleHeight": 330,
+    "seatOcclusionReady": false,
+    "warning": "Runtime background already contains a visitor. Integration and matching bench occlusion are future work."
+  },
+  "poses": [
+    {
+      "id": "standing-front",
+      "file": "poses/standing-front.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        10,
+        108,
+        160,
+        479
+      ],
+      "retainedSourceBounds": [
+        24,
+        123,
+        142,
+        458
+      ],
+      "dimensions": [
+        150,
+        466
+      ],
+      "groundAnchor": [
+        75,
+        462
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 37050,
+      "sha256": "633f3428da4c0bd99c06d7672f2d4dd54e5e5b5ebbab870a079886d2115d2dd5"
+    },
+    {
+      "id": "standing-left",
+      "file": "poses/standing-left.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        173,
+        108,
+        98,
+        479
+      ],
+      "retainedSourceBounds": [
+        183,
+        124,
+        81,
+        456
+      ],
+      "dimensions": [
+        89,
+        464
+      ],
+      "groundAnchor": [
+        46,
+        460
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 22258,
+      "sha256": "9b3441a5c424be21c06564278b57b095aeefa214439ab998de19731bb58bcd96"
+    },
+    {
+      "id": "standing-rear",
+      "file": "poses/standing-rear.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        273,
+        108,
+        151,
+        479
+      ],
+      "retainedSourceBounds": [
+        279,
+        122,
+        138,
+        458
+      ],
+      "dimensions": [
+        146,
+        466
+      ],
+      "groundAnchor": [
+        71,
+        462
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 37315,
+      "sha256": "8cd6412caee885633f6e993cd5a33b0e4031a8eea9e579e6730b87a8b99a8380"
+    },
+    {
+      "id": "standing-right",
+      "file": "poses/standing-right.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        428,
+        108,
+        102,
+        479
+      ],
+      "retainedSourceBounds": [
+        435,
+        124,
+        82,
+        456
+      ],
+      "dimensions": [
+        90,
+        464
+      ],
+      "groundAnchor": [
+        46,
+        460
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 22676,
+      "sha256": "12938cb47ada2e297c4a28c81d89851b9891b9ec9df85a8f2864867c8bc03d4a"
+    },
+    {
+      "id": "walking-right-01",
+      "file": "poses/walking-right-01.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        729,
+        10,
+        115,
+        168
+      ],
+      "retainedSourceBounds": [
+        742,
+        17,
+        92,
+        157
+      ],
+      "dimensions": [
+        100,
+        165
+      ],
+      "groundAnchor": [
+        51,
+        161
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 4070,
+      "sha256": "8cb8acbe2fb3aba696bbda7295147936a17be67e526f8b693489af043f7fe88c"
+    },
+    {
+      "id": "walking-right-02",
+      "file": "poses/walking-right-02.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        863,
+        10,
+        104,
+        168
+      ],
+      "retainedSourceBounds": [
+        870,
+        17,
+        82,
+        157
+      ],
+      "dimensions": [
+        90,
+        165
+      ],
+      "groundAnchor": [
+        53,
+        161
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 3857,
+      "sha256": "cf2adbdbd3093b782ee9be4f3633b1f72118931db3b833edd3c8821673685c7a"
+    },
+    {
+      "id": "walking-right-03",
+      "file": "poses/walking-right-03.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        988,
+        10,
+        84,
+        168
+      ],
+      "retainedSourceBounds": [
+        999,
+        17,
+        58,
+        157
+      ],
+      "dimensions": [
+        66,
+        165
+      ],
+      "groundAnchor": [
+        44,
+        161
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 3389,
+      "sha256": "895d331ffd162f8ac2d6f97814ba51023fae86861d1b1e688d98c2bfaf5fe4bd"
+    },
+    {
+      "id": "walking-right-04",
+      "file": "poses/walking-right-04.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        1106,
+        10,
+        86,
+        168
+      ],
+      "retainedSourceBounds": [
+        1142,
+        17,
+        32,
+        157
+      ],
+      "dimensions": [
+        40,
+        165
+      ],
+      "groundAnchor": [
+        20,
+        161
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 2901,
+      "sha256": "f524d50980e0f2f0c6a00976404db00365196df5eea37cf9ca9b96e40a9aa944"
+    },
+    {
+      "id": "walking-right-05",
+      "file": "poses/walking-right-05.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        1225,
+        10,
+        106,
+        168
+      ],
+      "retainedSourceBounds": [
+        1233,
+        17,
+        89,
+        157
+      ],
+      "dimensions": [
+        97,
+        165
+      ],
+      "groundAnchor": [
+        48,
+        161
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 4080,
+      "sha256": "a4b0b2779970b9dd1a8f6164a9962a529367b63058cb4b2cd8fac716c4841ba0"
+    },
+    {
+      "id": "walking-right-06",
+      "file": "poses/walking-right-06.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        1350,
+        10,
+        106,
+        168
+      ],
+      "retainedSourceBounds": [
+        1353,
+        16,
+        92,
+        158
+      ],
+      "dimensions": [
+        100,
+        166
+      ],
+      "groundAnchor": [
+        55,
+        162
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 4127,
+      "sha256": "8fe79ec65b7b608f4d1a74ac525833ff067d02dbd18f83652d31ee009278998b"
+    },
+    {
+      "id": "walking-right-07",
+      "file": "poses/walking-right-07.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        1465,
+        10,
+        116,
+        168
+      ],
+      "retainedSourceBounds": [
+        1476,
+        17,
+        98,
+        158
+      ],
+      "dimensions": [
+        106,
+        166
+      ],
+      "groundAnchor": [
+        56,
+        162
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 4194,
+      "sha256": "2fc5098a5adcbaada55ab9bdb5c86a276662613df096a1e952595aa11b56e38f"
+    },
+    {
+      "id": "walking-right-08",
+      "file": "poses/walking-right-08.png",
+      "status": "usable-isolated-still",
+      "animationReady": false,
+      "sourceRegion": [
+        1593,
+        10,
+        121,
+        168
+      ],
+      "retainedSourceBounds": [
+        1606,
+        17,
+        92,
+        158
+      ],
+      "dimensions": [
+        100,
+        166
+      ],
+      "groundAnchor": [
+        56,
+        162
+      ],
+      "seatAnchor": null,
+      "retainedPixels": 4132,
+      "sha256": "1fd036160a347fd0a432847e32575889b37bddb2a7d50d78e51bdc47188cb9e4"
+    }
+  ],
+  "missingOrUnprepared": [
+    {
+      "id": "seated-idle-look",
+      "status": "blocked-occluded",
+      "expectedFrames": 4,
+      "exportedFrames": 0,
+      "sourceRegion": [
+        798,
+        533,
+        858,
+        150
+      ],
+      "reason": "Bench slats obscure lower torso, hips and limbs. No reliable complete character-only pose."
+    },
+    {
+      "id": "head-rub",
+      "status": "blocked-occluded",
+      "expectedFrames": 6,
+      "exportedFrames": 0,
+      "sourceRegion": [
+        709,
+        700,
+        1034,
+        150
+      ],
+      "frames": [
+        "head-rub-01",
+        "head-rub-02",
+        "head-rub-03",
+        "head-rub-04",
+        "head-rub-05",
+        "head-rub-06"
+      ],
+      "reason": "All six frames include a bench. Removing it exposes unknown body pixels; no reconstruction performed."
+    },
+    {
+      "id": "sit-down",
+      "status": "blocked-sequence",
+      "expectedFrames": 6,
+      "exportedFrames": 0,
+      "sourceRegion": [
+        722,
+        366,
+        1036,
+        164
+      ],
+      "reason": "Bench overlaps the transition drawings; no complete clean transition sequence can be extracted."
+    },
+    {
+      "id": "approach-turn",
+      "status": "not-prepared",
+      "expectedFrames": 6,
+      "exportedFrames": 0,
+      "sourceRegion": [
+        758,
+        190,
+        915,
+        168
+      ],
+      "reason": "Not extracted in this pass; large rear standing reference supplies the rear still."
+    },
+    {
+      "id": "walking-left",
+      "status": "missing",
+      "expectedFrames": null,
+      "exportedFrames": 0,
+      "reason": "No left-facing walking sequence supplied. No mirrored poses synthesized."
+    }
+  ],
+  "review": "review/contact-sheet.png",
+  "validation": "review/validation.json",
+  "notes": "README.md",
+  "seatedArtwork": {
+    "id": "seated-rear",
+    "file": "seated-rear-transparent.png",
+    "requestedFilename": "seated-rear-transparent.png",
+    "status": "transparency-repaired-pending-visual-review",
+    "productionReady": false,
+    "animationReady": false,
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "seatAnchor": [
+      512,
+      1015
+    ],
+    "anchorStatus": "provisional central lower seat-contact edge, not an anatomical joint or artist-approved rig anchor",
+    "referenceNativeScale": 0.17,
+    "characterBounds": [
+      185,
+      58,
+      646,
+      1364
+    ],
+    "boundsMethod": "Nonzero alpha bounds, including antialiased edge coverage",
+    "transparency": {
+      "genuine": true,
+      "pixelFormat": "RGBA, 8 bits per channel",
+      "transparentPixels": 1033927,
+      "partialPixels": 14677,
+      "opaquePixels": 524260,
+      "checkerboardBakedIn": false
+    },
+    "sha256": "413001ca09df29740c0ff07b5cc6234f71d243cbf63551eafed9590837c98b22",
+    "limitations": [
+      "Edge alpha and edge foreground color are locally estimated because the original alpha matte was flattened. No pixel-perfect alpha recovery is claimed.",
+      "At hip (842,812), native scale 0.17, feet remain about 9px above the ground baseline; browser scale/contact review is pending.",
+      "Technical extraction passed. Final appearance and seated proportions are not visually approved."
+    ],
+    "originalSourceFile": "seated-rear.png.png",
+    "originalSourceSha256": "e5d5612f8d44ec4f2f3abfe4cfbf8d2fe8dabcd7f42f92d3360d75887f86bd57",
+    "repair": {
+      "method": "Local high-contrast segmentation and foreground/background edge matting; no new drawing",
+      "unchangedInteriorPixels": 519713,
+      "darkSourcePixelsRetained": 529626,
+      "edgePinholePixelsRepaired": 8,
+      "enclosedTransparentRegions": 0,
+      "technicalChecksPassed": true,
+      "finalVisualApproval": false,
+      "tool": "tools/RepairSeatedTransparency.cs",
+      "report": "review/round2f1/REPAIR.md",
+      "removedBackgroundSpeckPixels": 120
+    }
+  },
+  "seatedSourceArtwork": {
+    "id": "seated-rear",
+    "file": "seated-rear.png.png",
+    "requestedFilename": "seated-rear.png",
+    "status": "blocked-opaque-checkerboard",
+    "productionReady": false,
+    "animationReady": false,
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "seatAnchor": [
+      512,
+      1015
+    ],
+    "anchorStatus": "provisional central lower seat-contact edge, not an anatomical joint or artist-approved rig anchor",
+    "referenceNativeScale": 0.17,
+    "characterBounds": [
+      186,
+      61,
+      644,
+      1359
+    ],
+    "boundsMethod": "Dark pixels with max RGB <=100; diagnostic estimate, not alpha bounds",
+    "transparency": {
+      "genuine": false,
+      "pixelFormat": "RGB (no alpha channel)",
+      "transparentPixels": 0,
+      "partialPixels": 0,
+      "opaquePixels": 1572864,
+      "checkerboardBakedIn": true
+    },
+    "sha256": "e5d5612f8d44ec4f2f3abfe4cfbf8d2fe8dabcd7f42f92d3360d75887f86bd57",
+    "limitations": [
+      "Opaque checkerboard must not be mistaken for transparency. No background removal or recoloring performed.",
+      "100% preview scale means native PNG scale 0.17, estimated from head size relative to the approved standing reference.",
+      "At hip (842,812), estimated shoe bottom is y=880.85, about 9px above ground; contact/proportions require review after a genuine transparent export.",
+      "Source inspection only. A transparent export of this same artwork is needed for natural integration."
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+﻿{
+    "baseline":  [
+                     842,
+                     812,
+                     100
+                 ],
+    "localContour":  [
+                         [
+                             370,
+                             1009
+                         ],
+                         [
+                             390,
+                             1014
+                         ],
+                         [
+                             410,
+                             1016
+                         ],
+                         [
+                             430,
+                             1018
+                         ],
+                         [
+                             450,
+                             1018
+                         ],
+                         [
+                             470,
+                             1017
+                         ],
+                         [
+                             490,
+                             1016
+                         ],
+                         [
+                             510,
+                             1015
+                         ],
+                         [
+                             512,
+                             1015
+                         ],
+                         [
+                             530,
+                             1016
+                         ],
+                         [
+                             550,
+                             1017
+                         ],
+                         [
+                             570,
+                             1018
+                         ],
+                         [
+                             590,
+                             1018
+                         ],
+                         [
+                             610,
+                             1017
+                         ],
+                         [
+                             630,
+                             1014
+                         ],
+                         [
+                             650,
+                             1010
+                         ]
+                     ],
+    "centralClothY":  812,
+    "minClothY":  810.98,
+    "maxClothY":  812.51,
+    "rejectedY800ClothY":  800,
+    "gapAt812":  0,
+    "gapAt800":  6,
+    "seatToFrontRailStrip":  4,
+    "projectedFeetY":  881.19,
+    "correctionApplied":  false,
+    "physicalSupportPointVerified":  false
+}

@@ -1,0 +1,15 @@
+{
+    "result":  "passed",
+    "exportedPoses":  12,
+    "retainedPixelsVerified":  150049,
+    "pngDecode":  "passed for all 12 files",
+    "dimensions":  "match manifest records",
+    "padding":  "four fully transparent pixels on every edge",
+    "sourcePixelEquality":  "every nonzero-alpha output pixel equals original RGBA at documented coordinate",
+    "brightFringeThreshold":  "all retained RGB channels \u003c=55 and channel spread \u003c=25",
+    "groundAnchors":  "inside image bounds at bottom edge before padding",
+    "protectedFiles":  "all six source-image and runtime-file hashes unchanged",
+    "visualReview":  "contact sheet inspected; conservative contour loss disclosed",
+    "seatedOrHeadRubExports":  0,
+    "animationAdded":  false
+}
