@@ -111,7 +111,75 @@ button:focus-visible { outline: 2px solid #e7c99f; outline-offset: 4px; }
   .scene-footer { bottom: max(8px, env(safe-area-inset-bottom)); }
 }
 
-/* The foundation is static, including when reduced motion is requested. */
+/* Reduced motion: no animation. living-scene.js then shows the visitor already seated. */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---- Living scene (living-scene.js). Only transforms and opacity animate. ---- */
+.scene--living [data-layer="character"],
+.scene--living [data-layer="atmosphere"],
+.scene--living [data-layer="foreground"] { overflow: hidden; }
+
+.visitor { position: absolute; inset: 0; transform-origin: 0 0; will-change: transform, opacity; }
+.visitor__pose { position: absolute; background-size: 100% 100%; background-repeat: no-repeat; opacity: 0; }
+.visitor__pose.is-shown { opacity: 1; }
+
+.seated { position: absolute; opacity: 0; will-change: transform, opacity; }
+.seated__part { position: absolute; inset: 0; display: block; width: 100%; height: 100%; max-width: none; }
+/* Percentages of the 1024 x 1536 seated PNG. Pieces overlap slightly so no seam shows. */
+.seated__legs { clip-path: inset(65.1% 0 0 0); }
+.seated__torso { clip-path: inset(19.27% 0 34.24% 0); }
+.seated__head {
+  clip-path: polygon(37.1% 3.26%, 62.5% 3.26%, 62.5% 18.55%, 58.6% 20.31%, 41.5% 20.31%, 37.6% 18.55%);
+  transform-origin: 50% 19.5%;
+  transform: translateX(var(--head-shift, 0%)) rotate(var(--head-turn, 0deg));
+  transition: transform 2.4s cubic-bezier(.45, 0, .25, 1);
+}
+.seated__upper, .seated__breath { position: absolute; inset: 0; transform-origin: 50% 66.08%; }
+.seated__upper {
+  transform: translateY(var(--settle, 0%)) rotate(var(--lean, 0deg));
+  transition: transform 3.2s cubic-bezier(.45, 0, .25, 1);
+}
+.seated.is-resting .seated__breath { animation: breathe 2.5s ease-in-out infinite alternate; }
+@keyframes breathe { from { transform: scale(1, 1); } to { transform: scale(1.004, 1.011); } }
+
+.bench-occluder { position: absolute; display: block; }
+
+.glow { position: absolute; border-radius: 50%; mix-blend-mode: screen; pointer-events: none; }
+.glow--lamp {
+  background: radial-gradient(circle, #ffc56e66 0%, #ff9b3d2e 38%, #ff8a3000 70%);
+  animation: lamp 9s ease-in-out infinite;
+}
+.glow--sun {
+  background: radial-gradient(circle, #ffd58a4d 0%, #ff9a4a24 45%, #ff8a3000 72%);
+  animation: lamp 14s ease-in-out infinite;
+}
+@keyframes lamp {
+  0%, 100% { opacity: .45; }
+  23% { opacity: .8; }
+  41% { opacity: .58; }
+  67% { opacity: .95; }
+  84% { opacity: .62; }
+}
+
+.sparkle {
+  position: absolute;
+  width: .24%;
+  aspect-ratio: 1;
+  margin: -.12% 0 0 -.12%;
+  border-radius: 50%;
+  background: #fff4cf;
+  box-shadow: 0 0 .35em .08em #ffd98a;
+  opacity: 0;
+  animation: twinkle 5s ease-in-out infinite;
+}
+@keyframes twinkle { 0%, 62%, 100% { opacity: 0; } 78% { opacity: .85; } }
+
+.flock { position: absolute; inset: 0; transform: translate3d(-8%, 33%, 0); animation: drift 140s linear 20s infinite; }
+.flock__bird { position: absolute; width: 1.1%; fill: #17131c; overflow: visible; animation: flap .9s ease-in-out infinite alternate; }
+@keyframes drift {
+  0% { transform: translate3d(-8%, 33%, 0); }
+  60%, 100% { transform: translate3d(106%, 21%, 0); }
+}
+@keyframes flap { from { transform: scaleY(1); } to { transform: scaleY(.35); } }

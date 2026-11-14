@@ -3,6 +3,56 @@ A Zero76 Studios experiment.
 
 **Somewhere beautiful. Nothing to do.**
 
+## Living scene (Paris)
+
+The normal experience (no query flag) now runs a quiet, endless visitor cycle in
+`living-scene.js`, on the empty-bench artwork `assets/images/paris/paris-clean.png`:
+
+1. The visitor walks in from the left along the gravel just beyond the bench.
+2. They stop at the bench, turn to face the tower, and sit.
+3. They rest for 75-120 seconds with slow breathing, an occasional small head
+   movement and an occasional change of posture.
+4. They stand, turn, and walk out to the right. The bench stays empty for
+   12-20 seconds, then the next visit begins.
+
+Ambient movement is limited to what the artwork already shows: the lanterns and
+low sun glow gently, a few points of light twinkle on the tower, and two small
+birds cross the sky every couple of minutes.
+
+How it is put together (no new artwork, no dependencies, no build step):
+
+- Character PNGs are shown as supplied: scaled only, never redrawn or mirrored.
+  Seated placement is the documented baseline, hip (842, 812) at native scale 0.17.
+- The bench in front of the visitor is copied at runtime from the background's
+  own pixels (all three slats, both posts, the seat rail and the legs), so the
+  visitor passes and sits behind the real bench. The seat board is a separate
+  piece: in front of a walker, underneath a sitter.
+- The seated PNG is layered three times with clip regions (legs, torso, head) so
+  the head and upper body can move slightly while the legs stay still.
+- Only transforms and opacity animate. Positions are percentages of `.scene`, so
+  desktop, phone portrait/landscape, resize and fullscreen all stay aligned.
+- With "reduce motion" enabled the visitor is simply seated and nothing moves.
+- If any living-scene artwork fails to load, the page falls back to the original
+  still image `paris-approved.png`.
+- `?pace=fast` shortens the rest and the empty-bench pause for testing.
+- `?preview=character` is unchanged and does not start the living scene.
+
+Known artwork limits (the scene works around these; new art would improve them):
+
+- **Sitting down / standing up:** the sit-down drawings in the master sheet all
+  have a bench painted over the body, so they cannot be used. The transition is
+  a 1.5 second blend between the rear standing pose and the seated artwork.
+- **Clothing:** the standing and walking poses wear a T-shirt; the seated artwork
+  wears a hooded top. The change is visible during the blend.
+- **Walk cycle:** eight low-resolution frames (about 157 px tall, enlarged about
+  1.7x on a full-size desktop scene) that are not an even gait; frames 5-8 are
+  all wide strides. Only a right-facing walk exists, so the visitor always
+  enters from the left and leaves to the right.
+- **Turning:** the approach-and-turn frames were never extracted, so the turn is
+  a cut between the right-facing and rear standing stills.
+- **Head turns:** there are no bench-free look-around or head-rub frames. The
+  head movement is a small tilt of the existing seated head, not a real turn.
+
 ## Preview locally
 
 Open `index.html` directly in a modern desktop or mobile browser. No install,
@@ -121,7 +171,7 @@ Fullscreen appears only on browsers that support it. Use the button again or
 the browser's exit action (usually Escape on desktop) to leave fullscreen. If a
 request fails, a status message appears and the normal view remains usable.
 
-This foundation includes no character animation, audio, weather, purchases, or
+There is no audio, weather, purchases, or
 location switching. The concept below describes future possibilities.
 
 ## Concept
@@ -145,7 +195,7 @@ Round 2C asset preparation is documented in
 [checkerboard contact sheet](assets/characters/visitor-01/review/contact-sheet.png).
 Four standing views and eight walking stills are isolated; seated idle,
 sit-down and head-rub sequences remain blocked by bench occlusion. These files
-are loaded only by the development character preview. No character animation is implemented.
+are used by the living scene and the development character preview.
 
 - Man
 - Woman

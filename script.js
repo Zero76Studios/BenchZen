@@ -8,7 +8,8 @@ const fullscreenButton = document.getElementById("fullscreen-toggle");
 const fullscreenStatus = document.getElementById("fullscreen-status");
 
 // Development tools and alternate artwork are loaded only by this explicit flag.
-if (new URLSearchParams(window.location.search).get("preview") === "character") {
+const characterPreview = new URLSearchParams(window.location.search).get("preview") === "character";
+if (characterPreview) {
   artwork.dataset.src = "assets/images/paris/paris-clean.png";
   placeholder.querySelector("code").textContent = artwork.dataset.src;
   const previewStyles = document.createElement("link");
@@ -36,7 +37,20 @@ artwork.addEventListener("error", () => {
   artwork.hidden = true;
   placeholder.hidden = false;
 });
-artwork.src = artwork.dataset.src;
+
+// Normal mode: the living scene uses the empty-bench artwork plus the visitor.
+// If any of its artwork cannot load, keep the original approved still image.
+const livingScene = !characterPreview && window.BenchZenLivingScene;
+if (livingScene) {
+  livingScene.prepare()
+    .then(({ background }) => {
+      artwork.addEventListener("load", () => livingScene.start({ scene, background }), { once: true });
+      artwork.src = background.src;
+    })
+    .catch(() => { artwork.src = artwork.dataset.src; });
+} else {
+  artwork.src = artwork.dataset.src;
+}
 
 // Some mobile browsers do not support element fullscreen. Hide the control there.
 if (document.fullscreenEnabled && typeof experience.requestFullscreen === "function") {
