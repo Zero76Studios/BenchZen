@@ -1,0 +1,57 @@
+﻿[
+    {
+        "file":  "approved-master-character.png",
+        "width":  1536,
+        "height":  1024,
+        "pixelFormat":  "Format24bppRgb",
+        "transparentPixels":  0,
+        "partialAlphaPixels":  0,
+        "opaquePixels":  1572864,
+        "sha256":  "40D9DFEA0CF4F66E53F3E382A5BC1544E54EB6B89BB27994B20646D0EF16A636",
+        "matchesArchive":  true
+    },
+    {
+        "file":  "original-reference.png",
+        "width":  1774,
+        "height":  887,
+        "pixelFormat":  "Format32bppArgb",
+        "transparentPixels":  616254,
+        "partialAlphaPixels":  957011,
+        "opaquePixels":  273,
+        "sha256":  "0D67CA0ABD98B102451760650CC153CF204403C6224C61A7D0B4C15A3C40816A",
+        "matchesArchive":  true
+    },
+    {
+        "file":  "rear-sit-motion-reference.png",
+        "width":  2172,
+        "height":  724,
+        "pixelFormat":  "Format24bppRgb",
+        "transparentPixels":  0,
+        "partialAlphaPixels":  0,
+        "opaquePixels":  1572528,
+        "sha256":  "7B3C7781C71082653EB5DAA0A0A9480F2544CC1A8797FCF5CD7373F709BFB4D5",
+        "matchesArchive":  true
+    },
+    {
+        "file":  "side-sit-motion-reference.png",
+        "width":  2172,
+        "height":  724,
+        "pixelFormat":  "Format24bppRgb",
+        "transparentPixels":  0,
+        "partialAlphaPixels":  0,
+        "opaquePixels":  1572528,
+        "sha256":  "D1B93A240FE55FFDA24D5729A95FBAF878D436DA4D390A735C0630E83F45E398",
+        "matchesArchive":  true
+    },
+    {
+        "file":  "walk-cycle-candidate.png",
+        "width":  2172,
+        "height":  724,
+        "pixelFormat":  "Format32bppArgb",
+        "transparentPixels":  1047708,
+        "partialAlphaPixels":  522337,
+        "opaquePixels":  2483,
+        "sha256":  "D1CD9EE87EA22BB87B323D63ECC8EEE0DB80ED13C6EC9886A40909C1E846E9B2",
+        "matchesArchive":  true
+    }
+]

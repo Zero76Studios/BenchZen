@@ -1,0 +1,952 @@
+﻿[
+    {
+        "id":  "W01",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       18,
+                       41,
+                       329,
+                       578
+                   ],
+        "headBounds":  [
+                           145,
+                           41,
+                           85,
+                           83
+                       ],
+        "hipX":  169,
+        "groundY":  618,
+        "headY":  41,
+        "shoulderY":  160,
+        "shoulderWidth":  81,
+        "neckY":  126,
+        "hemY":  330,
+        "torsoProjection":  204,
+        "legPolyline":  241.43650612703703,
+        "scale":  1.0416666666666667,
+        "dx":  79.958333333333314,
+        "dy":  40.25,
+        "knee":  [
+                     234,
+                     466
+                 ],
+        "ankle":  [
+                      268,
+                      569
+                  ],
+        "hipJoint":  [
+                         169,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             92,
+                             618,
+                             67,
+                             117
+                         ],
+                         [
+                             260.5,
+                             618,
+                             245,
+                             276
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               88.541666666666671,
+                               82.958333333333343
+                           ],
+        "registeredFeet":  [
+                               175.79166666666666,
+                               351.3125
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            71.5,
+                                            294.5
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            -101.56250000000001,
+                                            130.72916666666669
+                                        ],
+        "registrationMargin":  70.625
+    },
+    {
+        "id":  "W02",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       338,
+                       40,
+                       192,
+                       579
+                   ],
+        "headBounds":  [
+                           416,
+                           40,
+                           84,
+                           83
+                       ],
+        "hipX":  441,
+        "groundY":  618,
+        "headY":  40,
+        "shoulderY":  160,
+        "shoulderWidth":  79,
+        "neckY":  126,
+        "hemY":  331,
+        "torsoProjection":  205,
+        "legPolyline":  224.7072561060576,
+        "scale":  1.0416666666666667,
+        "dx":  -203.37500000000006,
+        "dy":  40.25,
+        "knee":  [
+                     462,
+                     463
+                 ],
+        "ankle":  [
+                      449,
+                      572
+                  ],
+        "hipJoint":  [
+                         441,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             474,
+                             618,
+                             432,
+                             516
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               87.5,
+                               81.916666666666671
+                           ],
+        "registeredFeet":  [
+                               290.375
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            476.5
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            36.979166666666671
+                                        ],
+        "registrationMargin":  148.70833333333331
+    },
+    {
+        "id":  "W03",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       615,
+                       40,
+                       167,
+                       577
+                   ],
+        "headBounds":  [
+                           683,
+                           40,
+                           85,
+                           83
+                       ],
+        "hipX":  708,
+        "groundY":  616,
+        "headY":  40,
+        "shoulderY":  160,
+        "shoulderWidth":  79,
+        "neckY":  126,
+        "hemY":  331,
+        "torsoProjection":  205,
+        "legPolyline":  224.4360132222464,
+        "scale":  1.0416666666666667,
+        "dx":  -481.5,
+        "dy":  42.333333333333258,
+        "knee":  [
+                     718,
+                     459
+                 ],
+        "ankle":  [
+                      692,
+                      571
+                  ],
+        "hipJoint":  [
+                         708,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             714.5,
+                             616,
+                             673,
+                             756
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               88.541666666666671,
+                               83.999999999999929
+                           ],
+        "registeredFeet":  [
+                               262.77083333333331
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            716
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            8.3333333333333339
+                                        ],
+        "registrationMargin":  159.125
+    },
+    {
+        "id":  "W04",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       880,
+                       40,
+                       188,
+                       577
+                   ],
+        "headBounds":  [
+                           956,
+                           40,
+                           86,
+                           83
+                       ],
+        "hipX":  976,
+        "groundY":  616,
+        "headY":  40,
+        "shoulderY":  160,
+        "shoulderWidth":  79,
+        "neckY":  127,
+        "hemY":  330,
+        "torsoProjection":  203,
+        "legPolyline":  220.36642091035949,
+        "scale":  1.0416666666666667,
+        "dx":  -760.66666666666674,
+        "dy":  42.333333333333258,
+        "knee":  [
+                     1008,
+                     447
+                 ],
+        "ankle":  [
+                      939,
+                      543
+                  ],
+        "hipJoint":  [
+                         976,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             951.5,
+                             616,
+                             907,
+                             996
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               89.583333333333343,
+                               83.999999999999929
+                           ],
+        "registeredFeet":  [
+                               230.47916666666666
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            957
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            -19.791666666666668
+                                        ],
+        "registrationMargin":  156
+    },
+    {
+        "id":  "W05",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       1081,
+                       44,
+                       315,
+                       574
+                   ],
+        "headBounds":  [
+                           1219,
+                           44,
+                           85,
+                           83
+                       ],
+        "hipX":  1242,
+        "groundY":  617,
+        "headY":  44,
+        "shoulderY":  160,
+        "shoulderWidth":  74,
+        "neckY":  130,
+        "hemY":  334,
+        "torsoProjection":  204,
+        "legPolyline":  247.96903022683969,
+        "scale":  1.0416666666666667,
+        "dx":  -1037.75,
+        "dy":  41.291666666666629,
+        "knee":  [
+                     1297,
+                     456
+                 ],
+        "ankle":  [
+                      1327,
+                      581
+                  ],
+        "hipJoint":  [
+                         1242,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             1155.5,
+                             615,
+                             1139,
+                             1172
+                         ],
+                         [
+                             1328.5,
+                             617,
+                             1294,
+                             1363
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               88.541666666666671,
+                               87.124999999999972
+                           ],
+        "registeredFeet":  [
+                               165.89583333333331,
+                               346.10416666666669
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            1126,
+                                            1341.5
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            -120.83333333333334,
+                                            103.64583333333334
+                                        ],
+        "registrationMargin":  88.291666666666742
+    },
+    {
+        "id":  "W06",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       1405,
+                       44,
+                       274,
+                       577
+                   ],
+        "headBounds":  [
+                           1489,
+                           44,
+                           86,
+                           83
+                       ],
+        "hipX":  1512,
+        "groundY":  620,
+        "headY":  44,
+        "shoulderY":  160,
+        "shoulderWidth":  71,
+        "neckY":  129,
+        "hemY":  334,
+        "torsoProjection":  205,
+        "legPolyline":  219.65350047042747,
+        "scale":  1.0416666666666667,
+        "dx":  -1319,
+        "dy":  38.166666666666629,
+        "knee":  [
+                     1585,
+                     453
+                 ],
+        "ankle":  [
+                      1619,
+                      540
+                  ],
+        "hipJoint":  [
+                         1512,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             1461,
+                             620,
+                             1423,
+                             1499
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               89.583333333333343,
+                               83.999999999999972
+                           ],
+        "registeredFeet":  [
+                               202.875
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            1456.5
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            -57.812500000000007
+                                        ],
+        "registrationMargin":  82.083333333333258
+    },
+    {
+        "id":  "W07",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       1669,
+                       44,
+                       221,
+                       572
+                   ],
+        "headBounds":  [
+                           1759,
+                           44,
+                           87,
+                           83
+                       ],
+        "hipX":  1789,
+        "groundY":  615,
+        "headY":  44,
+        "shoulderY":  160,
+        "shoulderWidth":  72,
+        "neckY":  131,
+        "hemY":  335,
+        "torsoProjection":  204,
+        "legPolyline":  222.74928843454791,
+        "scale":  1.0416666666666667,
+        "dx":  -1607.5416666666667,
+        "dy":  43.375,
+        "knee":  [
+                     1796,
+                     457
+                 ],
+        "ankle":  [
+                      1709,
+                      533
+                  ],
+        "hipJoint":  [
+                         1789,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             1833,
+                             615,
+                             1788,
+                             1878
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               90.625,
+                               89.208333333333343
+                           ],
+        "registeredFeet":  [
+                               301.83333333333331
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            1838.5
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            51.562500000000007
+                                        ],
+        "registrationMargin":  131
+    },
+    {
+        "id":  "W08",
+        "source":  "walk-cycle-candidate.png",
+        "method":  "alpha\u003e=128 connected component; boot ROIs; manual shirt/limb landmarks",
+        "note":  "Contact is visible lowest sole band, NOT foot centre; left/right limb identity uncertain. Manual neck/hem +/-4, hip centre +/-5, joint estimates +/-8..12 source px. Leg polyline is projected evidence, not true bone length.",
+        "bounds":  [
+                       1989,
+                       43,
+                       157,
+                       578
+                   ],
+        "headBounds":  [
+                           2028,
+                           43,
+                           86,
+                           83
+                       ],
+        "hipX":  2055,
+        "groundY":  620,
+        "headY":  43,
+        "shoulderY":  160,
+        "shoulderWidth":  75,
+        "neckY":  129,
+        "hemY":  333,
+        "torsoProjection":  204,
+        "legPolyline":  227.15585987982274,
+        "scale":  1.0416666666666667,
+        "dx":  -1884.625,
+        "dy":  38.166666666666629,
+        "knee":  [
+                     2100,
+                     445
+                 ],
+        "ankle":  [
+                      2033,
+                      547
+                  ],
+        "hipJoint":  [
+                         2055,
+                         350
+                     ],
+        "contacts":  [
+                         [
+                             2039,
+                             620,
+                             1992,
+                             2086
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               89.583333333333343,
+                               82.9583333333333
+                           ],
+        "registeredFeet":  [
+                               239.33333333333334
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  [
+                                            2044
+                                        ],
+        "registeredBootCentreOffsetX":  [
+                                            -11.458333333333334
+                                        ],
+        "registrationMargin":  161.25
+    },
+    {
+        "id":  "R01",
+        "source":  "rear-sit-motion-reference.png (top row)",
+        "method":  "RGB max\u003e=40 bounds/sole within ROI; seat contour max\u003e=8; opaque source retained; manual neck/hem",
+        "note":  "RGB threshold is measurement proxy, not a matte. Contours +/-2..4 px; clothing landmarks +/-4 px; R01 oblique view excluded from width test. True seated leg length cannot be recovered from this rear projection.",
+        "bounds":  [
+                       159,
+                       46,
+                       105,
+                       283
+                   ],
+        "headBounds":  [
+                           189,
+                           46,
+                           43,
+                           34
+                       ],
+        "hipX":  208,
+        "groundY":  328,
+        "headY":  46,
+        "shoulderY":  104,
+        "shoulderWidth":  73,
+        "neckY":  89,
+        "hemY":  209,
+        "torsoProjection":  120,
+        "legPolyline":  0,
+        "scale":  2.2388059701492535,
+        "dx":  -209.67164179104475,
+        "dy":  -50.328358208955137,
+        "knee":  null,
+        "ankle":  null,
+        "hipJoint":  null,
+        "contacts":  [
+                         [
+                             176,
+                             328,
+                             159,
+                             193
+                         ],
+                         [
+                             228,
+                             328,
+                             225,
+                             231
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               96.268656716417908,
+                               52.65671641791053
+                           ],
+        "registeredFeet":  [
+                               184.35820895522389,
+                               300.77611940298505
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  null,
+        "registeredBootCentreOffsetX":  null,
+        "registrationMargin":  131.8656716417911
+    },
+    {
+        "id":  "R04",
+        "source":  "rear-sit-motion-reference.png (top row)",
+        "method":  "RGB max\u003e=40 bounds/sole within ROI; seat contour max\u003e=8; opaque source retained; manual neck/hem",
+        "note":  "RGB threshold is measurement proxy, not a matte. Contours +/-2..4 px; clothing landmarks +/-4 px; R01 oblique view excluded from width test. True seated leg length cannot be recovered from this rear projection.",
+        "bounds":  [
+                       915,
+                       61,
+                       111,
+                       269
+                   ],
+        "headBounds":  [
+                           949,
+                           61,
+                           44,
+                           34
+                       ],
+        "hipX":  972,
+        "groundY":  329,
+        "headY":  61,
+        "shoulderY":  116,
+        "shoulderWidth":  87,
+        "neckY":  101,
+        "hemY":  208,
+        "torsoProjection":  107,
+        "legPolyline":  0,
+        "scale":  2.2388059701492535,
+        "dx":  -1920.1194029850744,
+        "dy":  -52.567164179104452,
+        "knee":  null,
+        "ankle":  null,
+        "hipJoint":  null,
+        "contacts":  [
+                         [
+                             958,
+                             329,
+                             947,
+                             969
+                         ],
+                         [
+                             996.5,
+                             328,
+                             995,
+                             998
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               98.507462686567152,
+                               84
+                           ],
+        "registeredFeet":  [
+                               224.65671641791045,
+                               310.85074626865674
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  null,
+        "registeredBootCentreOffsetX":  null,
+        "registrationMargin":  128.38805970149269
+    },
+    {
+        "id":  "R05",
+        "source":  "rear-sit-motion-reference.png (top row)",
+        "method":  "RGB max\u003e=40 bounds/sole within ROI; seat contour max\u003e=8; opaque source retained; manual neck/hem",
+        "note":  "RGB threshold is measurement proxy, not a matte. Contours +/-2..4 px; clothing landmarks +/-4 px; R01 oblique view excluded from width test. True seated leg length cannot be recovered from this rear projection.",
+        "bounds":  [
+                       1158,
+                       85,
+                       119,
+                       245
+                   ],
+        "headBounds":  [
+                           1194,
+                           85,
+                           47,
+                           34
+                       ],
+        "hipX":  1218,
+        "groundY":  329,
+        "headY":  85,
+        "shoulderY":  139,
+        "shoulderWidth":  93,
+        "neckY":  124,
+        "hemY":  224,
+        "torsoProjection":  100,
+        "legPolyline":  0,
+        "scale":  2.2388059701492535,
+        "dx":  -2470.8656716417909,
+        "dy":  -52.567164179104452,
+        "knee":  null,
+        "ankle":  null,
+        "hipJoint":  null,
+        "contacts":  [
+                         [
+                             1196.5,
+                             329,
+                             1184,
+                             1209
+                         ],
+                         [
+                             1237,
+                             328,
+                             1225,
+                             1249
+                         ]
+                     ],
+        "seat":  null,
+        "registeredHead":  [
+                               105.22388059701491,
+                               137.73134328358211
+                           ],
+        "registeredFeet":  [
+                               207.86567164179104,
+                               298.53731343283584
+                           ],
+        "registeredSeat":  null,
+        "seatThresholdSensitivity":  null,
+        "manualSupportingBootCentreX":  null,
+        "registeredBootCentreOffsetX":  null,
+        "registrationMargin":  121.67164179104475
+    },
+    {
+        "id":  "R06",
+        "source":  "rear-sit-motion-reference.png (top row)",
+        "method":  "RGB max\u003e=40 bounds/sole within ROI; seat contour max\u003e=8; opaque source retained; manual neck/hem",
+        "note":  "RGB threshold is measurement proxy, not a matte. Contours +/-2..4 px; clothing landmarks +/-4 px; R01 oblique view excluded from width test. True seated leg length cannot be recovered from this rear projection.",
+        "bounds":  [
+                       1407,
+                       104,
+                       131,
+                       227
+                   ],
+        "headBounds":  [
+                           1446,
+                           104,
+                           46,
+                           34
+                       ],
+        "hipX":  1471,
+        "groundY":  330,
+        "headY":  104,
+        "shoulderY":  159,
+        "shoulderWidth":  92,
+        "neckY":  144,
+        "hemY":  254,
+        "torsoProjection":  110,
+        "legPolyline":  0,
+        "scale":  2.2388059701492535,
+        "dx":  -3037.2835820895521,
+        "dy":  -54.805970149253653,
+        "knee":  null,
+        "ankle":  null,
+        "hipJoint":  null,
+        "contacts":  [
+                         [
+                             1446.5,
+                             330,
+                             1434,
+                             1459
+                         ],
+                         [
+                             1493.5,
+                             330,
+                             1484,
+                             1503
+                         ]
+                     ],
+        "seat":  [
+                     1471,
+                     252
+                 ],
+        "registeredHead":  [
+                               102.98507462686567,
+                               178.02985074626872
+                           ],
+        "registeredFeet":  [
+                               201.14925373134329,
+                               306.37313432835822
+                           ],
+        "registeredSeat":  [
+                               256,
+                               509.37313432835822
+                           ],
+        "seatThresholdSensitivity":  [
+                                         252,
+                                         252,
+                                         246
+                                     ],
+        "manualSupportingBootCentreX":  null,
+        "registeredBootCentreOffsetX":  null,
+        "registrationMargin":  107.23880597014931
+    },
+    {
+        "id":  "R07",
+        "source":  "rear-sit-motion-reference.png (top row)",
+        "method":  "RGB max\u003e=40 bounds/sole within ROI; seat contour max\u003e=8; opaque source retained; manual neck/hem",
+        "note":  "RGB threshold is measurement proxy, not a matte. Contours +/-2..4 px; clothing landmarks +/-4 px; R01 oblique view excluded from width test. True seated leg length cannot be recovered from this rear projection.",
+        "bounds":  [
+                       1666,
+                       118,
+                       114,
+                       213
+                   ],
+        "headBounds":  [
+                           1700,
+                           118,
+                           48,
+                           34
+                       ],
+        "hipX":  1722,
+        "groundY":  330,
+        "headY":  118,
+        "shoulderY":  173,
+        "shoulderWidth":  82,
+        "neckY":  158,
+        "hemY":  274,
+        "torsoProjection":  116,
+        "legPolyline":  0,
+        "scale":  2.2388059701492535,
+        "dx":  -3599.2238805970146,
+        "dy":  -54.805970149253653,
+        "knee":  null,
+        "ankle":  null,
+        "hipJoint":  null,
+        "contacts":  [
+                         [
+                             1692,
+                             330,
+                             1680,
+                             1704
+                         ],
+                         [
+                             1752.5,
+                             330,
+                             1743,
+                             1762
+                         ]
+                     ],
+        "seat":  [
+                     1722,
+                     281
+                 ],
+        "registeredHead":  [
+                               107.46268656716417,
+                               209.37313432835828
+                           ],
+        "registeredFeet":  [
+                               188.83582089552237,
+                               324.28358208955223
+                           ],
+        "registeredSeat":  [
+                               256,
+                               574.29850746268653
+                           ],
+        "seatThresholdSensitivity":  [
+                                         282,
+                                         281,
+                                         269
+                                     ],
+        "manualSupportingBootCentreX":  null,
+        "registeredBootCentreOffsetX":  null,
+        "registrationMargin":  127.38805970149269
+    },
+    {
+        "id":  "R08",
+        "source":  "rear-sit-motion-reference.png (top row)",
+        "method":  "RGB max\u003e=40 bounds/sole within ROI; seat contour max\u003e=8; opaque source retained; manual neck/hem",
+        "note":  "RGB threshold is measurement proxy, not a matte. Contours +/-2..4 px; clothing landmarks +/-4 px; R01 oblique view excluded from width test. True seated leg length cannot be recovered from this rear projection.",
+        "bounds":  [
+                       1921,
+                       120,
+                       116,
+                       211
+                   ],
+        "headBounds":  [
+                           1955,
+                           120,
+                           48,
+                           34
+                       ],
+        "hipX":  1978,
+        "groundY":  330,
+        "headY":  120,
+        "shoulderY":  175,
+        "shoulderWidth":  78,
+        "neckY":  160,
+        "hemY":  277,
+        "torsoProjection":  117,
+        "legPolyline":  0,
+        "scale":  2.2388059701492535,
+        "dx":  -4172.3582089552237,
+        "dy":  -54.805970149253653,
+        "knee":  null,
+        "ankle":  null,
+        "hipJoint":  null,
+        "contacts":  [
+                         [
+                             1942,
+                             330,
+                             1930,
+                             1954
+                         ],
+                         [
+                             2016.5,
+                             329,
+                             2003,
+                             2030
+                         ]
+                     ],
+        "seat":  [
+                     1978,
+                     284
+                 ],
+        "registeredHead":  [
+                               107.46268656716417,
+                               213.85074626865679
+                           ],
+        "registeredFeet":  [
+                               175.40298507462688,
+                               342.19402985074623
+                           ],
+        "registeredSeat":  [
+                               256,
+                               581.01492537313436
+                           ],
+        "seatThresholdSensitivity":  [
+                                         284,
+                                         284,
+                                         279
+                                     ],
+        "manualSupportingBootCentreX":  null,
+        "registeredBootCentreOffsetX":  null,
+        "registrationMargin":  125.14925373134338
+    }
+]

@@ -1,0 +1,11 @@
+﻿{
+    "sourceHashesVerified":  5,
+    "candidateCount":  14,
+    "walkCount":  8,
+    "rearCount":  6,
+    "commonScalePerSequence":  true,
+    "allCandidatesHave12pxMargins":  true,
+    "allGroundOriginsAt684":  true,
+    "finalSpritesCreated":  false,
+    "limitation":  "Geometric registration checks only; not character-art acceptance."
+}
