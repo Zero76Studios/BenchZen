@@ -1,0 +1,161 @@
+﻿{
+    "sourceContact":  [
+                          524,
+                          1046
+                      ],
+    "frameContact":  [
+                         256,
+                         536
+                     ],
+    "sceneContact":  [
+                         842,
+                         812
+                     ],
+    "groundY":  881,
+    "seatY":  812,
+    "headBounds":  [
+                       389,
+                       9,
+                       261,
+                       291
+                   ],
+    "shoulderBounds":  [
+                           316,
+                           398,
+                           413,
+                           5
+                       ],
+    "leftBootBounds":  [
+                           210,
+                           1300,
+                           163,
+                           145
+                       ],
+    "rightBootBounds":  [
+                            667,
+                            1300,
+                            167,
+                            145
+                        ],
+    "estimatedHairBaseY":  296,
+    "estimatedHairBaseUncertainty":  8,
+    "contactContour":  [
+                           [
+                               500,
+                               1046
+                           ],
+                           [
+                               505,
+                               1046
+                           ],
+                           [
+                               510,
+                               1046
+                           ],
+                           [
+                               515,
+                               1046
+                           ],
+                           [
+                               520,
+                               1046
+                           ],
+                           [
+                               525,
+                               1046
+                           ],
+                           [
+                               530,
+                               1046
+                           ],
+                           [
+                               535,
+                               1046
+                           ],
+                           [
+                               540,
+                               1046
+                           ]
+                       ],
+    "thresholdLevels":  [
+                            32,
+                            128,
+                            224
+                        ],
+    "sourceBootSoleSensitivity":  [
+                                      [
+                                          32,
+                                          1445,
+                                          1445
+                                      ],
+                                      [
+                                          128,
+                                          1445,
+                                          1445
+                                      ],
+                                      [
+                                          224,
+                                          1444,
+                                          1444
+                                      ]
+                                  ],
+    "registeredLeftBootBounds":  [
+                                     156,
+                                     610,
+                                     52,
+                                     53
+                                 ],
+    "registeredRightBootBounds":  [
+                                      301,
+                                      610,
+                                      53,
+                                      53
+                                  ],
+    "comparisons":  [
+                        {
+                            "percent":  100,
+                            "sourceToScene":  0.14804597701149425,
+                            "headTopY":  658.476318359375,
+                            "headWidth":  38.64,
+                            "estimatedHeadHeight":  42.489195402298847,
+                            "shoulderEnvelopeWidth":  61.142988505747127,
+                            "contact":  [
+                                            842,
+                                            812
+                                        ],
+                            "leftSole":  [
+                                             812.0947265625,
+                                             871.07037353515625
+                                         ],
+                            "rightSole":  [
+                                              870.49884033203125,
+                                              871.07037353515625
+                                          ],
+                            "leftGap":  9.92962646484375,
+                            "rightGap":  9.92962646484375
+                        },
+                        {
+                            "percent":  103,
+                            "sourceToScene":  0.15248735632183907,
+                            "headTopY":  653.87060546875,
+                            "headWidth":  39.7992,
+                            "estimatedHeadHeight":  43.763871264367815,
+                            "shoulderEnvelopeWidth":  62.977278160919539,
+                            "contact":  [
+                                            842,
+                                            812
+                                        ],
+                            "leftSole":  [
+                                             811.19757080078125,
+                                             872.84246826171875
+                                         ],
+                            "rightSole":  [
+                                              871.35382080078125,
+                                              872.84246826171875
+                                          ],
+                            "leftGap":  8.15753173828125,
+                            "rightGap":  8.15753173828125
+                        }
+                    ],
+    "anatomicalContactVerified":  false
+}

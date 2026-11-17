@@ -1,0 +1,202 @@
+﻿[
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\ART-AUDIT.md",
+        "sha256":  "0D4E664B9E072B59284EF7A323306E4FAECA167A36C7917E2C1E4CAFD7510CBE"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\REGISTRATION-REPORT.md",
+        "sha256":  "04547917BEB7BF52E819D1F53CE4A00D9DC6BC6B815E91E843208DB1718766E9"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\SEATED-CANDIDATE-REPORT.md",
+        "sha256":  "4E154C36DC899AA2B8658BA392DB39AD364E81E72DA2296D9567DDDEE54D336F"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\SEATED-REST-REPORT.md",
+        "sha256":  "9F8C934B4B64488A56E428792008B03DCCA8E137EC59ECAD401E973B373967B4"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\contact-sheet.png",
+        "sha256":  "287BF62C86F580AF679C614C86E2B80AF83E94A4172BC49C9D862255A8E6AAE7"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\inspect-sources.ps1",
+        "sha256":  "212F58030ED03588420242D1268F3852425CB692A01BEFAB3252A55B796E162F"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\rear-seated-detail.png",
+        "sha256":  "D1B8327A477A79820C3B96E5C3DF639F268B546AE7578013CBA369AFF5E54C6B"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\source-integrity.json",
+        "sha256":  "54B28007EAA863A27B1DD26317E118C9674D718526C1FE7F499BC0ABCC10D0D8"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\walk-component-bounds.txt",
+        "sha256":  "17D1D7A07AD01D9D0D9F101D31C091BF7F1DAEBB2F4CD31FFC90BFDEB8306615"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\annotated-source.png",
+        "sha256":  "6160C3C2A0C1F9A587D3654661DBE3FE4A2A11CEC972F17311084E0B7E64A08A"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\comparison.csv",
+        "sha256":  "802AFE94D9BA085F5C8D16C248CCF9728CA5D89389A5ED7839EF5F2A4874B3B1"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\measurements.json",
+        "sha256":  "C0285776EE013AAC9BB0F4B6A8CFDFE62B3C13CC6612A7767EEB0C6D633AEF75"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\rear-sequence-detail.png",
+        "sha256":  "1E29016EF92272C8EDE07B3481A48B26B4723AD8D1AD92D63105EE042D3E1457"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\registered-rear.png",
+        "sha256":  "D60037D15C9BC2B9E00E98E36234FE491447CAE01BE772C83DD84AA8AA8C6527"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\registered-walk.png",
+        "sha256":  "B5D98D25D5235199FA7C0E4FB58A8AEFEBFC49784E1B84320B774B7245E7AF0B"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\RegistrationDiagnostic.cs",
+        "sha256":  "9439AA6D297633488BAD3BFCAE966843FD653D8EB2F6894E6B3FA3957F210449"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\RunDiagnostic.ps1",
+        "sha256":  "AF179EA29C7A4FB9EC76DA5F999CBF15AA971414E3213E785F68CCB7B2DBB0CF"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\validation.json",
+        "sha256":  "471BC939600C718EFF6EA8EA640F48E73176804777DA15BF0311765FF69E1CF3"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\walk-feet-left.png",
+        "sha256":  "A9FCD72E8D9C399D9D4C7832443854D8C5332D2D30BF2D3D2866B164B29C56A0"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round2\\walk-feet-right.png",
+        "sha256":  "E2A36240DF7FF7FB1C6B3ADB9A9F9CC94B88C5BEDE5FE6CED62192E3BD21D426"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round4\\seated-cutout-attempt.png",
+        "sha256":  "0C1A2DE7CB112CE5409B6140C15C450A2FC1EC19A6CF6F6B89CFDEE554A9F01B"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round4\\source-comparison.html",
+        "sha256":  "5EA4D02A13C3EB89080281F2C9410F80469A7721B6428DFCF8E740D8AD60B0C5"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round4\\validation.json",
+        "sha256":  "B21323B70C7F92CCA5C9984A94E72263D6C64E46C08870521A2419ABF373BD89"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\bench-foreground.png",
+        "sha256":  "E8BED51C147CF33EC43B1D76BDEFAB2894BDACC915F18071407815FB2725CFA7"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\BuildPreview.cs",
+        "sha256":  "73ACA21CED4B3BFB0790616BBF1335EA07CA1CA8AF46FE85EE4EF7DAE7220310"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\measurements.json",
+        "sha256":  "96ACB3A7995EA4298C2D8F7033DF8A72ED27AA2670FFF06A75078934F91D80E9"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\paris-seated-preview.png",
+        "sha256":  "BB596627592825999394741E10758F7B7F0F2468A5ECD0E0642F10BDC76AC38F"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\preview.html",
+        "sha256":  "C0A0DC1BF4E528FDEDD27031B5E406AB0F13030663D899D706A89C62A7E07BB3"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\preview.js",
+        "sha256":  "61E4607A969186DD66092438272EDAE5D22FC47611CAFA0B633C30B6BED2A990"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\RunPreview.ps1",
+        "sha256":  "3963D5B7CB3F7269E338B49980F1B0B7B55CEF5E76DE8440388F5173A6871A44"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\seated-preview.png",
+        "sha256":  "321C96951EE0EC0B7BA7783881D1AAC11F0DC4E7110D9CD22C4A69E6D996CE0B"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round5\\standing-seated-comparison.png",
+        "sha256":  "6DC8E9A83E08585300AEC36C5AFBD3D1896BC6B9B27D8E87038C0A10D59B6D18"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\alignment-100-vs-103.png",
+        "sha256":  "0E1920E4AA52C49621F861E703D1A851D6E1A18E5E0EA41726FA548567D86B52"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\AlignmentDiagnostic.cs",
+        "sha256":  "4FC610EC6C7F6B5E6C0D488B7003B9558ACB83458B791A132A21A1CDC4CDCC79"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\annotated-scene-100.png",
+        "sha256":  "61758F330BF855FE5437375242C7C631D6F16AC3E22BB0BE61D11983C4954C22"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\annotated-scene-103.png",
+        "sha256":  "0AA563F4F61B581106FC2AD5F666B27E86A86E2FD0BB2872FEF7E28564A9F4BE"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\measurements.json",
+        "sha256":  "437197D46FF07E9FAA7B225DAA72951E31C7092E2C976A5EC72ACDBF4A0B1EDA"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\preservation-before.json",
+        "sha256":  "8C082C420822240E3179BA5217E51D79FCA49078A5753BA7533AE1A6078D123A"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\RunDiagnostic.ps1",
+        "sha256":  "78AC0BE571B4BD3E252834434BD8AEE80A8D03E6D345AADE0A8E9A9637219331"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\scene-100.png",
+        "sha256":  "BB596627592825999394741E10758F7B7F0F2468A5ECD0E0642F10BDC76AC38F"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\scene-103.png",
+        "sha256":  "77874043E5776D1F69B103043F8136DFF77E8CBD7BB7FCBA8AC5E59328776D8D"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\SEAT-FOOT-REPORT.md",
+        "sha256":  "5E8404EFBE5F01EFF0C220D39920515D8764795DB113522D117210E884695888"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\review\\round6\\validation.json",
+        "sha256":  "3ABBC2B366BCF68856CCE0DBC65CA38F78C88F11412AEBCCEB9A874FD07829EE"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\approved-master-character.png",
+        "sha256":  "40D9DFEA0CF4F66E53F3E382A5BC1544E54EB6B89BB27994B20646D0EF16A636"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\original-reference.png",
+        "sha256":  "0D67CA0ABD98B102451760650CC153CF204403C6224C61A7D0B4C15A3C40816A"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\rear-sit-motion-reference.png",
+        "sha256":  "7B3C7781C71082653EB5DAA0A0A9480F2544CC1A8797FCF5CD7373F709BFB4D5"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\side-sit-motion-reference.png",
+        "sha256":  "D1B93A240FE55FFDA24D5729A95FBAF878D436DA4D390A735C0630E83F45E398"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\visitor-02-seated-candidate.png",
+        "sha256":  "0B3C01490BB97568A0546B6EA27E75D976A3C2C58F915E5AF097CD7521A23BE8"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\visitor-02-seated-transparent.png",
+        "sha256":  "18A7295C48830F8B78A6C27A5DB5E84AC9F39555D72C7CEB85F8BC9F2AFC5003"
+    },
+    {
+        "path":  "C:\\projects\\Zero76Studios\\BenchZen\\assets\\characters\\visitor-02\\source\\walk-cycle-candidate.png",
+        "sha256":  "D1CD9EE87EA22BB87B323D63ECC8EEE0DB80ED13C6EC9886A40909C1E846E9B2"
+    }
+]

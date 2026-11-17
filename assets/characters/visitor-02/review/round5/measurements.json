@@ -1,0 +1,26 @@
+﻿{
+    "width":  1048,
+    "height":  1501,
+    "transparent":  1003252,
+    "partial":  569557,
+    "opaque":  239,
+    "alphaBounds":  [
+                        186,
+                        9,
+                        658,
+                        1436
+                    ],
+    "headBounds":  [
+                       389,
+                       9,
+                       261,
+                       291
+                   ],
+    "contactY":  1046,
+    "soleY":  1445,
+    "shoulderWidth":  413,
+    "scale":  0.3172413793103448,
+    "groundY":  662.5793103448276,
+    "headY":  207.02068965517248,
+    "anatomicalContactVerified":  false
+}

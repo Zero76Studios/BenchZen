@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Visitor-02 seated visual test — Round 5</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#15191e;color:#e9edf1;font:15px/1.5 system-ui}header,section{padding:16px 24px}h1{font-size:22px;margin:0 0 6px}p{margin:6px 0}strong{color:#ffc174}.controls{display:flex;gap:16px;flex-wrap:wrap;align-items:center}label{display:flex;gap:6px;align-items:center}input[type=number]{width:90px}button,input{font:inherit;padding:5px}button{cursor:pointer}.viewport{overflow:auto;border-block:1px solid #53606b}.scene{width:1672px;height:941px;position:relative;isolation:isolate}.scene img{position:absolute;pointer-events:none}.background,.foreground{inset:0;width:1672px;height:941px}.foreground{z-index:3}.character{z-index:2}.guides{position:absolute;inset:0;z-index:4;pointer-events:none;width:1672px;height:941px}.fit .scene{transform:scale(var(--fit));transform-origin:top left}.fit{height:calc(941px * var(--fit))}.comparison{max-width:100%;height:auto}#status{font-variant-numeric:tabular-nums}a{color:#99d1ff}.backdrops{display:flex;gap:12px}.backdrops img{width:256px;height:384px;object-fit:contain}.light{background:#eee}.dark{background:#222}
+</style></head><body>
+<header><h1>Visitor-02 seated visual test / Round 5</h1><p><strong>Unapproved preview. No lifecycle or animation integration.</strong> Hip placement uses the visible jeans underside, not a verified anatomical support point.</p>
+<div class="controls">
+<label>X <input id="x" type="number" min="0" max="1672" step="1" value="842"></label>
+<label>Y <input id="y" type="number" min="0" max="941" step="1" value="812"></label>
+<label>Scale % <input id="scale" type="number" min="50" max="150" step="0.5" value="100"></label>
+<button id="reset">Head-match baseline</button><button id="ground">Fit feet to ground</button>
+<label><input id="occlusion" type="checkbox" checked>Foreground bench</label>
+<label><input id="guides" type="checkbox" checked>Alignment guides</label>
+<label><input id="fit" type="checkbox" checked>Fit viewport</label>
+</div><p id="status" role="status">Loading preview…</p><p>Uncheck “Fit viewport” for 1 scene pixel per CSS pixel. X/Y are scene coordinates; scale is uniform around hip (256,536). Cyan: seat y812. Green: ground y881. Red: clothing-contact estimate and projected sole level. Scale adjustments are temporary.</p></header>
+<div class="viewport fit" id="viewport"><div class="scene" id="scene">
+<img class="background" src="../../../../images/paris/paris-clean.png" alt="Existing Paris scenery">
+<img class="character" id="character" src="seated-preview.png" alt="Visitor-02 seated candidate">
+<img class="foreground" id="foreground" src="bench-foreground.png" alt="Existing bench foreground pixels">
+<svg class="guides" id="overlay" viewBox="0 0 1672 941" aria-label="Seat and ground guides"><path d="M645 812H1038" stroke="cyan"/><path d="M645 881H1038" stroke="#67ff89"/><path d="M842 620V900" stroke="white" stroke-dasharray="4 5"/><path id="contact" stroke="#ff6969" stroke-width="2"/><path id="feet" stroke="#ff6969" stroke-dasharray="4 4"/></svg>
+</div></div>
+<section><h2>Standing / seated diagnostic</h2><p>Left and centre use H600 reference scale. The master retains its original opaque backdrop. The right panel is a magnified scene crop.</p><img class="comparison" src="standing-seated-comparison.png" alt="Approved rear standing reference beside registered sitter and Paris bench composite"><p><a href="paris-seated-preview.png">Full scene composite</a> · <a href="measurements.json">Registration measurements</a> · <a href="../../SEATED-VISUAL-TEST-REPORT.md">Report</a></p><h2>Edge inspection</h2><div class="backdrops"><img class="light" src="seated-preview.png" alt="Preview edges on light background"><img class="dark" src="seated-preview.png" alt="Preview edges on dark background"></div></section>
+<script src="preview.js"></script></body></html>

@@ -1,0 +1,16 @@
+﻿{
+    "priorFilesVerified":  50,
+    "baseline":  [
+                     842,
+                     812,
+                     100
+                 ],
+    "localGroundEstimate":  [
+                                868,
+                                880
+                            ],
+    "groundEstimateIsAssumed":  true,
+    "measuredSoleY":  871.07037353515625,
+    "artworkModified":  false,
+    "placementModified":  false
+}

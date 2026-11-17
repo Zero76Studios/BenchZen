@@ -1,0 +1,42 @@
+{
+  "branch": "feature/paris-living-scene",
+  "commit": "ea24f84",
+  "preexistingUntrackedReport": "assets/characters/visitor-02/SEATED-REST-REPORT.md",
+  "source": {
+    "file": "../../source/visitor-02-seated-candidate.png",
+    "width": 1048,
+    "height": 1501,
+    "pixelFormat": "Format24bppRgb",
+    "opaquePixels": 1573048,
+    "transparentPixels": 0,
+    "sha256": "0B3C01490BB97568A0546B6EA27E75D976A3C2C58F915E5AF097CD7521A23BE8",
+    "matchesDownloads": true
+  },
+  "cutoutAttempt": {
+    "file": "seated-cutout-attempt.png",
+    "tool": "built-in image_gen",
+    "width": 1048,
+    "height": 1501,
+    "sha256": "0C1A2DE7CB112CE5409B6140C15C450A2FC1EC19A6CF6F6B89CFDEE554A9F01B",
+    "transparentPixels": 997619,
+    "partialAlphaPixels": 575113,
+    "opaquePixels": 316,
+    "darkPixelComparison": {
+      "method": "Sample every 2 pixels: x=190..<840, y=30..<1440; include original RGB max<80. Compare same coordinates. Includes dark edge pixels; not an eroded interior mask.",
+      "samples": 125389,
+      "meanAbsoluteRGBChannelDifference": 2.4032304800793263,
+      "samplesWithSummedRGBDifferenceOver15": 11431,
+      "meanAlpha": 252.74000909170661,
+      "minimumAlpha": 46
+    },
+    "accepted": false,
+    "reason": "Character RGB changed and body alpha is not preserved. Pixel-preserving extraction not demonstrated. This does not establish that every other extraction method would fail."
+  },
+  "originalSourceHashesVerified": 5,
+  "registeredFrameCreated": false,
+  "benchCompositeCreated": false,
+  "seatContactVerified": false,
+  "visualApproval": false,
+  "browserReview": "Unavailable: browser access host unavailable",
+  "trackedFilesModified": false
+}
